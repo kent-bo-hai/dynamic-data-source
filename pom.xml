@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.kent.datasource</groupId>
+    <artifactId>dynamic-data-source-parent</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>dynamic-data-source-parent</name>
+
+    <inceptionYear>2017</inceptionYear>
+    <licenses>
+        <license>
+            <name>Apache 2</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+            <comments>A business-friendly OSS license</comments>
+        </license>
+    </licenses>
+    <organization>
+        <name>kent</name>
+        <url>https://github.com/kent-bo-hai</url>
+    </organization>
+
+    <developers>
+        <developer>
+            <id>Kent</id>
+            <name>Kent</name>
+            <email>kent.bohai@gmail.com</email>
+        </developer>
+    </developers>
+    <contributors>
+    </contributors>
+
+
+    <modules>
+        <module>dynamic-data-source</module>
+        <module>dynamic-data-source-test</module>
+        <module>dynamic-data-source-spring-boot-starter</module>
+    </modules>
+</project>
