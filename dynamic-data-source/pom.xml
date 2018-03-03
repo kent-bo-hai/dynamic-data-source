@@ -77,13 +77,6 @@
             <scope>provided</scope>
         </dependency>
 
-        <!-- aspectjrt -->
-        <dependency>
-            <groupId>org.aspectj</groupId>
-            <artifactId>aspectjrt</artifactId>
-            <version>1.8.13</version>
-            <scope>provided</scope>
-        </dependency>
         <!-- https://mvnrepository.com/artifact/org.aspectj/aspectjweaver -->
         <dependency>
             <groupId>org.aspectj</groupId>
